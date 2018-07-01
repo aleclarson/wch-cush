@@ -1,0 +1,17 @@
+{
+  "name": "wch-cush",
+  "version": "0.0.1",
+  "main": "lib/index",
+  "scripts": {
+    "build": "coffee-build src -o lib",
+    "prepublishOnly": "prepv -i || true"
+  },
+  "dependencies": {
+    "cush-cdn": "^0.0.1",
+    "wch": "^0.8.0"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.3.0",
+    "wch-coffee": "^0.2.0"
+  }
+}
